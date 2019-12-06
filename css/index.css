@@ -97,7 +97,7 @@ header nav a{
     box-sizing: border-box;
     vertical-align: top;
 }
-.home-page-header{
+.home-page-header, .about-page-header{
     margin-left:50px;
     margin-top: 3%;
 }
@@ -210,3 +210,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page additions */
