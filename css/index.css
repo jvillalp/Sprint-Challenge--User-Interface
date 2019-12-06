@@ -66,9 +66,44 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display:flex;
+    margin-left: 40px;
+}
+
+header nav{
+    /* display:flex;
+    align-items: flex-end;
+    align-items: center; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    align-items: flex-end;
+
+}
+header nav a{
+    text-decoration: none;
+    padding-left: 10%;
+    padding-right: 5%;
+    color: black;
+}
+
+.title{
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.home-page-header{
+    margin-left:40px;
+    margin-top: 3%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:  5%;
 }
 
 .top-content {
