@@ -213,5 +213,34 @@ footer nav a {
 
 /* About page additions */
 .about{
-    border: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.main-body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dotted black;
+    
+}
+.in-main-body{
+    width: 44%;
+    margin: 3%;
+    border-bottom: 1px dotted black;
+
+}
+.end{
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.in-main-body button{
+padding: 2%;
+width: 40%;
+background: white;
+margin-top: 2%;
+border-radius: 8px;
+border: 1px solid black;
 }
