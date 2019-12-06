@@ -68,7 +68,8 @@ p {
 
 header{
     display:flex;
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 2%;
 }
 
 header nav{
@@ -97,13 +98,13 @@ header nav a{
     vertical-align: top;
 }
 .home-page-header{
-    margin-left:40px;
+    margin-left:50px;
     margin-top: 3%;
 }
 .container {
     width: 800px;
     margin: 0 auto;
-    margin-top:  5%;
+    margin-top:  2%;
 }
 
 .top-content {
@@ -147,6 +148,36 @@ header nav a{
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
