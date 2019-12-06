@@ -212,6 +212,8 @@ footer nav a {
 }
 
 /* About page additions */
+
+
 .about{
     /* border-bottom: 1px dotted black; */
     margin-left: 3%;
@@ -221,14 +223,15 @@ footer nav a {
 .main-body{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px dotted black;
     
 }
 .in-main-body{
     width: 44%;
-    margin: 3%;
+    margin-top: 3%;
     border-bottom: 1px dotted black;
+
 
 }
 .end{
@@ -238,13 +241,13 @@ footer nav a {
 }
 
 .in-main-body button{
-padding: 2%;
-width: 40%;
-background: white;
-margin-top: 2%;
-border-radius: 8px;
-margin-bottom: 4%;
-border: 2px solid black;
+    padding: 2%;
+    width: 35%;
+    background: white;
+    margin-top: 3%;
+    border-radius: 8px;
+    margin-bottom: 4%;
+    border: 2px solid black;
 }
 
 .img-body{
