@@ -214,7 +214,7 @@ footer nav a {
 /* About page additions */
 .about{
     /* border-bottom: 1px dotted black; */
-    margin-left: 2%;
+    margin-left: 3%;
     margin-bottom: 3%;
 }
 
@@ -232,8 +232,9 @@ footer nav a {
 
 }
 .end{
-    margin-left: 2%;
+    margin-left: 3%;
     margin-bottom: 3%;
+    margin-top: 1%;
 }
 
 .in-main-body button{
