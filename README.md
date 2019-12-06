@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is used to allow anyone who develops to see your code and be able to understand and follow through what what you have contributed to a project. In order words its a "language" that gives meaning to makeups you made and the elements presented in your webpage.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display:block takes up all of the space that is in the parent container, and they encompass inline elements. Block elements break onto a new line and dont normally stay within a line of text. Examples: <p></p> and <div></div>
+display:inline that reside within the block element which can allow us to edit inside of an element and not break into a new line. Examples: <a></a> and <span></span>
 
 3. What are the 4 areas of the box model?
 
+The four areas are:
+margin edge, padding edge, border edge, and content edge.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align:items: center works on centering items at center of cross-axis. "https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg"
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because they can all code at the same time using their own branches and can merge all their work together without affecting the work of others. This is helpful when creating an application that requires different versions because they can all branch from the master branch and work on their their parts of the application they need to each individually fix before launching an update. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -55,7 +68,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
@@ -89,10 +102,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
